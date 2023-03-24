@@ -117,7 +117,13 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 ### `LibTooling`: C++ Interface to _Clang_
 
  * No Kotlin/JVM ❌, no Kotlin/MP ❌ (unless wrappers are written manually)
- * C++ API 
+ * C++ API
+
+#### Links
+
+ * [LibTooling](https://clang.llvm.org/docs/LibTooling.html)
+ * [Tutorial for building tools using LibTooling and LibASTMatchers](https://clang.llvm.org/docs/LibASTMatchersTutorial.html)
+ * <https://opensource.apple.com/source/clang/clang-425.0.24/src/tools/clang/docs/LibTooling.html>
 
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
