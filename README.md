@@ -60,6 +60,16 @@ Shape::Shape(int)::shapeHeight
 [`clang::ParmVarDecl`](https://clang.llvm.org/doxygen/classclang_1_1ParmVarDecl.html)
 class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
+### `libclang`: C Interface to _Clang_
+
+ * Java bindings to _Clang_ version **15** are available via
+   [_JavaCPP Presets_](https://github.com/bytedeco/javacpp-presets/tree/master/llvm) (Kotlin/JVM ✔, Kotlin/MP ❌).
+ * [API reference](https://clang.llvm.org/doxygen/group__CINDEX.html)
+
+#### Used by
+
+ * [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 ### Overview
@@ -114,4 +124,9 @@ Desinged to tokenize a code with some of main feature to track changes in file.
  * _Visual Studio Code_ [integration](https://codeql.github.com/docs/codeql-for-visual-studio-code/)
 
 ## Eclipse CDT
- * Kotlin/JVM only
+
+ * Kotlin/JVM ✔ only, no Kotlin/MP ❌
+
+### Used by
+
+* [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
