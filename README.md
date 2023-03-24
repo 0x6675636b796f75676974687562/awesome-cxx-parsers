@@ -14,7 +14,15 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
 Getting an AST tree is as easy as
 
 ```bash
-clang -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
+clang++ -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
+```
+
+The AST can also be dumped in binary form, to be later on consumed and parsed by
+[`libclang`](#libclang-c-interface-to-_clang_):
+
+```bash
+# Will produce file.ast
+clang++ -emit-ast file.cc
 ```
 
 #### Example
