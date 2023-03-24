@@ -43,6 +43,7 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
    * Microsoft extensions (up to VS 2019)
    * Arm Compiler 5
      * Support for the Arm Compiler (`armcc`) is preliminary.
+ * _Visual Studio Code_ [integration](https://codeql.github.com/docs/codeql-for-visual-studio-code/)
 
 ## Eclipse CDT
  * Kotlin/JVM only
