@@ -11,6 +11,8 @@ Getting an AST tree is as easy as
 clang -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
 ```
 
+Here's a [JSON output](Shape.json) for a [sample C++ class](Shape.cc).
+
 This is supported since at least _Clang_ version 11.
 
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
