@@ -7,6 +7,7 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
 
  * Kotlin/JVM ✔, Kotlin/MP ✔
  * Available since at least _Clang_ version 11.
+ * [_Rust_ bindings](https://github.com/dtolnay/clang-ast)
 
 #### Overview
 
