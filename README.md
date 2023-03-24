@@ -136,18 +136,26 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 ### Overview
-Initially it was designed by GitHub for theid [Atom IDE](https://github.com/atom/) which was sunseted to be replaced by CodeHub\VS Code.
-Desinged to tokenize a code with some of main feature to track changes in file.
 
- * Articates:
-   - https://habr.com/ru/post/670140/ (russina)
-   - https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter
+ * Kotlin/JVM ✔ only, no Kotlin/MP ❌
+
+Initially it was designed by GitHub for their [Atom IDE](https://github.com/atom/) which was sunset to be replaced by CodeHub/VS Code.
+Designed to tokenize a code with some of main feature to track changes in file.
+
+ * Articles:
+
+   - <https://habr.com/ru/post/670140/> (in Russian)
+   - <https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter>
+   - <https://www.youtube.com/watch?v=Jes3bD6P0To>
 
 ### Implementations
+
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
+ * [Java bindings](https://github.com/serenadeai/java-tree-sitter) (19 🍴, 61 ⭐)
  * [Playground](https://tree-sitter.github.io/tree-sitter/playground) (C, C++ and other languages)
- 
+
    Using the following C++ source code,
+
    ```cxx
    class Shape {
    public:
@@ -163,6 +171,7 @@ Desinged to tokenize a code with some of main feature to track changes in file.
        int height;
    };
    ```
+
    &mdash; incorrectly recognizes field access as an `identifier` (i.e. local variable) and not a `field_identifier` (for the code to be parsed correctly, one should change `height` &rarr; `this.height`). The same error affects simpler to parse languages, such as _Java_.
  * [Playground](https://fwcd.dev/tree-sitter-kotlin/) (Kotlin grammar, unofficial)
 
