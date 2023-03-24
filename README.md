@@ -15,6 +15,15 @@ This is supported since at least _Clang_ version 11.
 
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
+### Overview
+Initially it was designed by GitHub for theid [Atom IDE](https://github.com/atom/) which was sunseted to be replaced by CodeHub\VS Code.
+Desinged to tokenize a code with some of main feature to track changes in file.
+
+ * Articates:
+   - https://habr.com/ru/post/670140/ (russina)
+   - https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter
+
+### Implementations
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
  * [Playground](https://tree-sitter.github.io/tree-sitter/playground) (C, C++ and other languages)
  
