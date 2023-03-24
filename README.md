@@ -104,6 +104,14 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
    [_JavaCPP Presets_](https://github.com/bytedeco/javacpp-presets/tree/master/llvm) (Kotlin/JVM ✔, Kotlin/MP ❌).
  * [API reference](https://clang.llvm.org/doxygen/group__CINDEX.html)
 
+#### Overview
+
+ * `libclang` has its limitations
+    and [doesn't expose](https://clang.llvm.org/docs/Tooling.html#libclang) the
+    entire AST.
+    Read [this](https://www.foonathan.net/2017/04/cppast/) for further details.
+ * `libclang` tokens are not preprocessed.
+
 #### Examples
 
  * [Baby steps with libclang: Walking an abstract syntax tree](https://bastian.rieck.me/blog/posts/2015/baby_steps_libclang_ast/)
@@ -185,3 +193,10 @@ Desinged to tokenize a code with some of main feature to track changes in file.
 ### Used by
 
 * [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+
+## [`foonathan/cppast`](https://github.com/foonathan/cppast)
+
+ * 157 🍴, 1.5k ⭐
+ * No Kotlin/JVM ❌, no Kotlin/MP ❌ (unless wrappers are written manually)
+ * C++ API
+ * Was built in response to `libclang` limitations
