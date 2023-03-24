@@ -21,4 +21,4 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
        int height;
    };
    ```
-   &mdash; incorrectly recognizes field access as an `identifier` (i.e. local variable) and not a `field_identifier` (for the code to be parsed correctly, one should change `height` &rarr; `this.height`).
+   &mdash; incorrectly recognizes field access as an `identifier` (i.e. local variable) and not a `field_identifier` (for the code to be parsed correctly, one should change `height` &rarr; `this.height`). The same error affects simpler to parse languages, such as Java.
