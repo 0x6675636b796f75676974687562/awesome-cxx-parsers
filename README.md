@@ -32,3 +32,5 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
      }
    }
    ```
+## [CodeQL](https://codeql.github.com)
+ * [C and C++ status](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks):
