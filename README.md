@@ -5,11 +5,17 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
 
 ### CLI (`clang`)
 
+* Kotlin/JVM ✔, Kotlin/MP ✔
+
+#### Overview
+
 Getting an AST tree is as easy as
 
 ```bash
 clang -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
 ```
+
+#### Example
 
 Here's a [JSON output](Shape.json) for a [sample C++ class](Shape.cc).
 
