@@ -18,7 +18,7 @@ clang++ -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
 ```
 
 The AST can also be dumped in binary form, to be later on consumed and parsed by
-[`libclang`](#libclang-c-interface-to-_clang_):
+[`libclang`](#libclang-c-interface-to-clang) ([example](https://bastian.rieck.me/blog/posts/2015/baby_steps_libclang_ast/)):
 
 ```bash
 # Will produce file.ast
@@ -103,6 +103,10 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
  * Java bindings to _Clang_ version **15** are available via
    [_JavaCPP Presets_](https://github.com/bytedeco/javacpp-presets/tree/master/llvm) (Kotlin/JVM ✔, Kotlin/MP ❌).
  * [API reference](https://clang.llvm.org/doxygen/group__CINDEX.html)
+
+#### Examples
+
+ * [Baby steps with libclang: Walking an abstract syntax tree](https://bastian.rieck.me/blog/posts/2015/baby_steps_libclang_ast/)
 
 #### Used by
 
