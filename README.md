@@ -5,7 +5,8 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
 
 ### CLI (`clang`)
 
-* Kotlin/JVM ✔, Kotlin/MP ✔
+ * Kotlin/JVM ✔, Kotlin/MP ✔
+ * Available since at least _Clang_ version 11.
 
 #### Overview
 
@@ -19,8 +20,8 @@ clang -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
 
 Here's a [JSON output](Shape.json) for a [sample C++ class](Shape.cc).
 
-This is supported since at least _Clang_ version 11. Field access on
-[line 8](Shape.cc#L8) is correctly recognized as a [`clang::MemberExpr`](Shape.json#L554)
+Field access on [line 8](Shape.cc#L8) is correctly recognized as a
+[`clang::MemberExpr`](Shape.json#L554)
 ([reference](https://clang.llvm.org/doxygen/classclang_1_1MemberExpr.html)).
 
 Notably, GCC-style mangled C++ symbol names are also stored in the JSON:
