@@ -137,7 +137,9 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
 ### Overview
 
- * Kotlin/JVM ✔ only, no Kotlin/MP ❌
+ * Kotlin/JVM ✔ available via [Java bindings](https://github.com/serenadeai/java-tree-sitter)
+ * Kotlin/MP ✔ possible by wrapping a native platform binary
+ * Kotlin/JS ✔ possible by wrapping `tree-sitter.js`
 
 Initially it was designed by GitHub for their [Atom IDE](https://github.com/atom/) which was sunset to be replaced by CodeHub/VS Code.
 Designed to tokenize a code with some of main feature to track changes in file.
