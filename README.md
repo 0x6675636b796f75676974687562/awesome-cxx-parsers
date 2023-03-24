@@ -70,6 +70,23 @@ Shape::Shape(int)::shapeHeight
 [`clang::ParmVarDecl`](https://clang.llvm.org/doxygen/classclang_1_1ParmVarDecl.html)
 class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
+### `clangd`
+
+ * Kotlin/JVM ✔, Kotlin/MP ✔
+ * Supports [LSP **3.17**](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
+    plus [extensions](https://clangd.llvm.org/extensions)
+
+#### Overview
+
+ * Sample response [JSON response](clangd-response.json) from `clangd`.
+ * `clangd` tool window in _CLion_:
+
+    ![](images/clion-clangd-tool-window.png) 
+
+#### Used by
+
+ * [_JetBrains CLion_](https://www.jetbrains.com/clion/)
+
 ### `libclang`: C Interface to _Clang_
 
  * Java bindings to _Clang_ version **15** are available via
