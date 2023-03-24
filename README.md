@@ -108,10 +108,16 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
  * [Baby steps with libclang: Walking an abstract syntax tree](https://bastian.rieck.me/blog/posts/2015/baby_steps_libclang_ast/)
  * [Using libclang to Parse C++ (aka libclang 101)](https://shaharmike.com/cpp/libclang/)
+ * <https://github.com/bytedeco/javacpp-presets/tree/master/llvm/samples/clang>
 
 #### Used by
 
  * [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+
+### `LibTooling`: C++ Interface to _Clang_
+
+ * No Kotlin/JVM ❌, no Kotlin/MP ❌ (unless wrappers are written manually)
+ * C++ API 
 
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
