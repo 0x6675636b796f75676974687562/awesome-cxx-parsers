@@ -56,6 +56,10 @@ $ echo '_ZZN5ShapeC1EiE11shapeHeight' | c++filt
 Shape::Shape(int)::shapeHeight
 ```
 
+`ParmVarDecl` specifies a JSON-serialized instance of
+[`clang::ParmVarDecl`](https://clang.llvm.org/doxygen/classclang_1_1ParmVarDecl.html)
+class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
+
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 ### Overview
