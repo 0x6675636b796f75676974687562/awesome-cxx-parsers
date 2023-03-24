@@ -34,3 +34,10 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
    ```
 ## [CodeQL](https://codeql.github.com)
  * [C and C++ status](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks):
+   * C++20 support is currently in beta. Supported for GCC on Linux only. Modules are _not_ supported.
+   * Clang (and `clang-cl`) extensions (up to Clang 12.0)
+     * Support for the `clang-cl` compiler is preliminary.
+   * GNU extensions (up to GCC 11.1)
+   * Microsoft extensions (up to VS 2019)
+   * Arm Compiler 5
+     * Support for the Arm Compiler (`armcc`) is preliminary.
