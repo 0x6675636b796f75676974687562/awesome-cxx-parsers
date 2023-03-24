@@ -75,6 +75,8 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
  * Kotlin/JVM ✔, Kotlin/MP ✔
  * Supports [LSP **3.17**](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
     plus [extensions](https://clangd.llvm.org/extensions)
+ * Can provide [`clang::clangd::ParsedAST`](https://clang.llvm.org/extra/doxygen/classclang_1_1clangd_1_1ParsedAST.html),
+    which, in turn, can be used to access [`clang::ASTContext`](https://clang.llvm.org/doxygen/classclang_1_1ASTContext.html)
  * [Features](https://clangd.llvm.org/features)
 
 #### Overview
