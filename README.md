@@ -217,7 +217,8 @@ Designed to tokenize a code with some of main feature to track changes in file.
 
 ### Used by
 
-* [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+ * [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+ * [joernio/joern](https://github.com/joernio/joern) 
 
 ## [`foonathan/cppast`](https://github.com/foonathan/cppast)
 
