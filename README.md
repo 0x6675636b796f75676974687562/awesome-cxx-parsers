@@ -1,6 +1,18 @@
 # Awesome C++ Parsers
 An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
 
+## [Clang](https://clang.llvm.org)
+
+### CLI (`clang`)
+
+Getting an AST tree is as easy as
+
+```bash
+clang -fsyntax-only -Xclang -ast-dump=json file.cc >file.json
+```
+
+This is supported since at least _Clang_ version 11.
+
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
