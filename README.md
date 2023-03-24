@@ -45,3 +45,4 @@ An overview of C and C++ parsers available for Kotlin/JVM and Kotlin/MP
      * Support for the Arm Compiler (`armcc`) is preliminary.
 
 ## Eclipse CDT
+ * Kotlin/JVM only
