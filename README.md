@@ -137,7 +137,8 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
 ### Overview
 
- * Kotlin/JVM ✔ available via [Java bindings](https://github.com/serenadeai/java-tree-sitter)
+ * Kotlin/JVM ✔ available via [Java](https://github.com/serenadeai/java-tree-sitter)
+   or [Kotlin](https://github.com/oxisto/kotlintree) bindings
  * Kotlin/MP ✔ possible by wrapping a native platform binary
  * Kotlin/JS ✔ possible by wrapping `tree-sitter.js`
 
@@ -154,6 +155,7 @@ Designed to tokenize a code with some of main feature to track changes in file.
 
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter) (19 🍴, 61 ⭐)
+ * [Kotlin bindings](https://github.com/oxisto/kotlintree) (2 🍴, 28 ⭐)
  * [Playground](https://tree-sitter.github.io/tree-sitter/playground) (C, C++ and other languages)
 
    Using the following C++ source code,
