@@ -186,6 +186,15 @@ Desinged to tokenize a code with some of main feature to track changes in file.
      * Support for the Arm Compiler (`armcc`) is preliminary.
  * _Visual Studio Code_ [integration](https://codeql.github.com/docs/codeql-for-visual-studio-code/)
 
+### Links
+
+ * [Analyzing your projects](https://codeql.github.com/docs/codeql-for-visual-studio-code/analyzing-your-projects/)
+ * [Exploring the structure of your source code](https://codeql.github.com/docs/codeql-for-visual-studio-code/exploring-the-structure-of-your-source-code/)
+ * [Exploring data flow with path queries](https://codeql.github.com/docs/codeql-for-visual-studio-code/exploring-data-flow-with-path-queries/)
+ * [CodeQL for C and C++](https://codeql.github.com/docs/codeql-language-guides/codeql-for-cpp/)
+ * [Writing CodeQL queries](https://codeql.github.com/docs/writing-codeql-queries/)
+ * [CodeQL CLI manual](https://codeql.github.com/docs/codeql-cli/manual/)
+
 ## Eclipse CDT
 
  * Kotlin/JVM ✔ only, no Kotlin/MP ❌
