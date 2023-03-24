@@ -155,7 +155,10 @@ Designed to tokenize a code with some of main feature to track changes in file.
 
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter) (19 🍴, 61 ⭐)
+   * Can't be built using JDK 17 due to outdated _Gradle_. 
  * [Kotlin bindings](https://github.com/oxisto/kotlintree) (2 🍴, 28 ⭐)
+   * The project wraps `libtree-sitter-cpp.{so,dylib}` and `libtree-sitter-cpp.{so,dylib}` via JNA.
+   * _Linux_ and _Mac OS X_ only.
  * [Playground](https://tree-sitter.github.io/tree-sitter/playground) (C, C++ and other languages)
 
    Using the following C++ source code,
