@@ -112,7 +112,7 @@ Desinged to tokenize a code with some of main feature to track changes in file.
    }
    ```
 ## [CodeQL](https://codeql.github.com)
- * [No public repositories](https://github.com/codeql)
+ * [No public repositories](https://github.com/codeql) ❌
  * [C and C++ status](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks):
    * C++20 support is currently in beta. Supported for GCC on Linux only. Modules are _not_ supported.
    * Clang (and `clang-cl`) extensions (up to Clang 12.0)
