@@ -15,6 +15,47 @@ Here's a [JSON output](Shape.json) for a [sample C++ class](Shape.cc).
 
 This is supported since at least _Clang_ version 11.
 
+Notably, GCC-style mangled C++ symbol names are also stored in the JSON:
+
+```json
+{
+   "id": "0x8001988b0",
+   "kind": "ParmVarDecl",
+   "loc": {
+      "offset": 36,
+      "line": 3,
+      "col": 15,
+      "tokLen": 11
+   },
+   "range": {
+      "begin": {
+         "offset": 32,
+         "col": 11,
+         "tokLen": 3
+      },
+      "end": {
+         "offset": 36,
+         "col": 15,
+         "tokLen": 11
+      }
+   },
+   "isUsed": true,
+   "name": "shapeHeight",
+   "mangledName": "_ZZN5ShapeC1EiE11shapeHeight",
+   "type": {
+      "qualType": "int"
+   }
+}
+```
+
+Here, `_ZZN5ShapeC1EiE11shapeHeight` is a mangled name which corresponds to
+`Shape::Shape(int)::shapeHeight`:
+
+```console
+$ echo '_ZZN5ShapeC1EiE11shapeHeight' | c++filt
+Shape::Shape(int)::shapeHeight
+```
+
 ## [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 ### Overview
