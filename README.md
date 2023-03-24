@@ -107,6 +107,7 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 #### Examples
 
  * [Baby steps with libclang: Walking an abstract syntax tree](https://bastian.rieck.me/blog/posts/2015/baby_steps_libclang_ast/)
+ * [Using libclang to Parse C++ (aka libclang 101)](https://shaharmike.com/cpp/libclang/)
 
 #### Used by
 
