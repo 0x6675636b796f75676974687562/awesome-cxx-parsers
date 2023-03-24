@@ -70,11 +70,12 @@ Shape::Shape(int)::shapeHeight
 [`clang::ParmVarDecl`](https://clang.llvm.org/doxygen/classclang_1_1ParmVarDecl.html)
 class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 
-### `clangd`
+### [`clangd`](https://clangd.llvm.org/)
 
  * Kotlin/JVM ✔, Kotlin/MP ✔
  * Supports [LSP **3.17**](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
     plus [extensions](https://clangd.llvm.org/extensions)
+ * [Features](https://clangd.llvm.org/features)
 
 #### Overview
 
