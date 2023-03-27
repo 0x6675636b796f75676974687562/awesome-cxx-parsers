@@ -157,7 +157,7 @@ Designed to tokenize a code with some of main feature to track changes in file.
 
  But bindings look like a very alpha (checked java and kotlin).
 
- According to `README.md` and articles: looks like `tree-sitter` is targeted to Web: `Web Tree-sitter`\`WASM` is part of the main library: https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web.
+ According to `README.md` and articles: looks like `tree-sitter` is targeted to Web: `Web Tree-sitter`/`WASM` is part of the main library: https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web.
 
  Additionally, it's used as a plugin in popular editors and actively supported: [nvim](https://github.com/nvim-treesitter) and [emacs](https://github.com/emacs-tree-sitter)
 
@@ -165,7 +165,7 @@ Designed to tokenize a code with some of main feature to track changes in file.
 Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
 
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter):
-   Here a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/java-tree-sitter
+   Here is a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/java-tree-sitter
    
    It fails with error in C code:
    ```
@@ -194,7 +194,7 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
    Aborted
    ```
  * [Kotlin bindings](https://github.com/oxisto/kotlintree):
-   Here a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
+   Here is a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
    
    It does work on Ubuntu: ![](images/kotlintree.gif) 
 
