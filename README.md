@@ -156,6 +156,7 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
 
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter):
    Here a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/java-tree-sitter
+   
    It fails with error in C code:
    ```
    15:02:06.519 [main] INFO c.s.save.demo.cpg.SaveDemoCpgKt - Started SaveDemoCpgKt in 49.612 seconds (JVM running for 63.49) 
@@ -184,7 +185,8 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
    ```
  * [Kotlin bindings](https://github.com/oxisto/kotlintree):
    Here a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
-   TBD
+   
+   It does work on Ubuntu: ![](images/kotlintree.gif) 
 
 ### Implementations
 
