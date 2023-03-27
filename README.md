@@ -151,6 +151,16 @@ Designed to tokenize a code with some of main feature to track changes in file.
    - <https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter>
    - <https://www.youtube.com/watch?v=Jes3bD6P0To>
 
+ * Activity of the project:
+ Project contains two parts: parser (specification) and binding (api).
+ Specification are hosted under the main GitHub organization [tree-sitter](https://github.com/tree-sitter) and looks like it's being updated (checked java/cpp).
+
+ But bindings look like a very alpha (checked java and kotlin).
+
+ According to `README.md` and articles: looks like `tree-sitter` is targeted to Web: `Web Tree-sitter`\`WASM` is part of the main library: https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web.
+
+ Additionally, it's used as a plugin in popular editors and actively supported: [nvim](https://github.com/nvim-treesitter) and [emacs](https://github.com/emacs-tree-sitter)
+
 ### POC
 Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
 
