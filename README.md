@@ -151,6 +151,39 @@ Designed to tokenize a code with some of main feature to track changes in file.
    - <https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter>
    - <https://www.youtube.com/watch?v=Jes3bD6P0To>
 
+### POC
+Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
+
+ * [Java bindings](https://github.com/serenadeai/java-tree-sitter):
+   Here a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
+   It fails with error in C code:
+   ```
+   15:02:06.519 [main] INFO c.s.save.demo.cpg.SaveDemoCpgKt - Started SaveDemoCpgKt in 49.612 seconds (JVM running for 63.49) 
+   15:03:04.447 [boundedElastic-1] INFO c.s.s.d.cpg.controller.CpgController - Created a file with sources: demo.java
+   #
+   # A fatal error has been detected by the Java Runtime Environment:
+   #
+   #  SIGSEGV (0xb) at pc=0x00007f547c49bd3d, pid=2570, tid=2727
+   #
+   # JRE version: OpenJDK Runtime Environment (17.0.3+7) (build 17.0.3+7-Ubuntu-0ubuntu0.22.04.1)
+   # Java VM: OpenJDK 64-Bit Server VM (17.0.3+7-Ubuntu-0ubuntu0.22.04.1, mixed mode, emulated-client, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+   # Problematic frame:
+   # C  [libjava-tree-sitter.so+0x2bd3d]  ts_tree_root_node+0xd
+   #
+   # No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+   #
+   # An error report file with more information is saved as:
+   # /mnt/d/projects/save-cloud/hs_err_pid2570.log
+   #
+   # If you would like to submit a bug report, please visit:
+   #   Unknown
+   # The crash happened outside the Java Virtual Machine in native code.
+   # See problematic frame for where to report the bug.
+   #
+   Aborted
+   ```
+ * [Kotlin bindings](https://github.com/oxisto/kotlintree): TBD
+
 ### Implementations
 
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
