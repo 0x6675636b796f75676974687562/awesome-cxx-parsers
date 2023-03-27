@@ -201,10 +201,18 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
 ### Implementations
 
  * [C++ Grammar](https://github.com/tree-sitter/tree-sitter-cpp) (45 🍴, 156 ⭐)
+   * Portable: can be built with at least `g++` **10** and `clang++` **13**
+     (and, probably, earlier versions). 
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter) (19 🍴, 61 ⭐)
+   * Uses JNI.
+   * The native library has to be manually built first.
+   * Be sure to clone with `--recurse-submodules`.
    * Can't be built using JDK 17 due to outdated _Gradle_. 
  * [Kotlin bindings](https://github.com/oxisto/kotlintree) (2 🍴, 28 ⭐)
-   * The project wraps `libtree-sitter-cpp.{so,dylib}` and `libtree-sitter-cpp.{so,dylib}` via JNA.
+   * Uses JNA. 
+   * The native library has to be manually built first (requires `clang++`).
+   * The project wraps `libtree-sitter.{so,dylib}` (**0.20.1**) and
+     `libtree-sitter-cpp.{so,dylib}` (**0.19.0**) via JNA.
    * _Linux_ and _Mac OS X_ only.
  * [Playground](https://tree-sitter.github.io/tree-sitter/playground) (C, C++ and other languages)
 
