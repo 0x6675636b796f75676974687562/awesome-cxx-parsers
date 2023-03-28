@@ -143,7 +143,7 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
  * Kotlin/JS ✔ possible by wrapping `tree-sitter.js`
 
 Initially it was designed by GitHub for their [Atom IDE](https://github.com/atom/) which was sunset to be replaced by CodeHub/VS Code.
-Designed to tokenize a code with some of main feature to track changes in file.
+Designed to tokenize code with focus on tracking changes in a file.
 
  * Articles:
 
@@ -155,20 +155,25 @@ Designed to tokenize a code with some of main feature to track changes in file.
  Project contains two parts: parser (specification) and binding (api).
  Specification are hosted under the main GitHub organization [tree-sitter](https://github.com/tree-sitter) and looks like it's being updated (checked java/cpp).
 
- But bindings look like a very alpha (checked java and kotlin).
+ But bindings look like a very alpha (checked _Java_ and _Kotlin_).
 
- According to `README.md` and articles: looks like `tree-sitter` is targeted to Web: `Web Tree-sitter`/`WASM` is part of the main library: https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web.
+ According to the [`README.md`](https://github.com/tree-sitter/tree-sitter#readme)
+ and articles: looks like `tree-sitter` is targeted at Web:
+ `Web Tree-sitter`/`WASM` is part of the main library:
+ <https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web>.
 
- Additionally, it's used as a plugin in popular editors and actively supported: [nvim](https://github.com/nvim-treesitter) and [emacs](https://github.com/emacs-tree-sitter)
+ Additionally, it's used as a plugin in popular editors and actively supported:
+ [_Neovim_](https://github.com/nvim-treesitter) and
+ [_Emacs_](https://github.com/emacs-tree-sitter)
 
-### POC
+### PoC
 Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
 
  * [Java bindings](https://github.com/serenadeai/java-tree-sitter):
    Here is a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/java-tree-sitter
    
    It fails with error in C code:
-   ```
+   ```console
    15:02:06.519 [main] INFO c.s.save.demo.cpg.SaveDemoCpgKt - Started SaveDemoCpgKt in 49.612 seconds (JVM running for 63.49) 
    15:03:04.447 [boundedElastic-1] INFO c.s.s.d.cpg.controller.CpgController - Created a file with sources: demo.java
    #
@@ -195,7 +200,7 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
    ```
  * [Kotlin bindings](https://github.com/oxisto/kotlintree):
    Here is a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
-   
+
    It does work on Ubuntu: ![](images/kotlintree.gif) 
 
 ### Implementations
