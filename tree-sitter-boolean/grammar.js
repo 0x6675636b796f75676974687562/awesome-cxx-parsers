@@ -16,6 +16,7 @@ module.exports = grammar({
             $.binary_expression,
             $.unary_expression,
             $.primary_expression,
+            $.parenthesized_expression,
         ),
 
         binary_expression: $ => choice(
@@ -42,6 +43,8 @@ module.exports = grammar({
             $._literal,
             $.identifier,
         ),
+
+        parenthesized_expression: $ => seq('(', $.expression, ')'),
 
         _literal: $ => choice(
             $.true,
