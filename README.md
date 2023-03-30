@@ -196,7 +196,8 @@ Tried to create a POC using **tree-sitter**. Run on WSL\Linux.
  * [Kotlin bindings](https://github.com/oxisto/kotlintree):
    Here is a branch: https://github.com/saveourtool/save-cloud/compare/master...feature/kotlintree
    
-   It does work on Ubuntu: ![](images/kotlintree.gif) 
+   It does work on Ubuntu: ![](images/kotlintree.gif)
+ * [Custom grammar](tree-sitter-boolean/README.md)
 
 ### Implementations
 
