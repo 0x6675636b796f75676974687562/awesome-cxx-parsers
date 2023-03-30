@@ -20,3 +20,6 @@
    ./tree-sitter playground
    ```
 5. You can play with this grammar in a browser: (http://127.0.0.1:8000)
+
+## Demonstration
+![](images/boolean-parser.gif)
