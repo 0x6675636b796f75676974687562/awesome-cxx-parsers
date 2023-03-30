@@ -148,9 +148,11 @@ Designed to tokenize code with focus on tracking changes in a file.
 
  * Articles:
 
-   - <https://habr.com/ru/post/670140/> (in Russian)
-   - <https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter>
-   - <https://www.youtube.com/watch?v=Jes3bD6P0To>
+   - [Tree-sitter: обзор инкрементального парсера (in Russian)](https://habr.com/ru/post/670140/)
+   - [A Comprehensive Introduction to Tree-sitter](https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter)
+   - ["Tree-sitter - a new parsing system for programming tools" by Max Brunsfeld](https://www.youtube.com/watch?v=Jes3bD6P0To)
+   - [How to write a linter using tree-sitter in an hour](https://siraben.dev/2022/03/22/tree-sitter-linter.html)
+     - [Discussion on Hacker News](https://news.ycombinator.com/item?id=30822544)
 
  * Activity of the project:
  Project contains two parts: parser (specification) and binding (api).
