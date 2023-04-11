@@ -121,6 +121,7 @@ class from the [C++ API](https://clang.llvm.org/doxygen/namespaceclang.html).
 #### Used by
 
  * [Fraunhofer-AISEC/cpg](https://github.com/Fraunhofer-AISEC/cpg)
+ * [0x6675636b796f75676974687562/libclang-example](https://github.com/0x6675636b796f75676974687562/libclang-example)
 
 ### `LibTooling`: C++ Interface to _Clang_
 
